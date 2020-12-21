@@ -21,6 +21,8 @@
 		AF9B08952590619100AEA90B /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B08932590619100AEA90B /* SandwichDetail.swift */; };
 		AF9B08A6259067DC00AEA90B /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */; };
 		AF9B08A7259067DC00AEA90B /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */; };
+		AF9B08AD259104B100AEA90B /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B08AC259104B100AEA90B /* SandwichStore.swift */; };
+		AF9B08AE259104B100AEA90B /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B08AC259104B100AEA90B /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		AF9B088C2590546E00AEA90B /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		AF9B08932590619100AEA90B /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 		AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
+		AF9B08AC259104B100AEA90B /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				AF9B088C2590546E00AEA90B /* Sandwich.swift */,
 				AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */,
 				AF9B08932590619100AEA90B /* SandwichDetail.swift */,
+				AF9B08AC259104B100AEA90B /* SandwichStore.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -322,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9B08AD259104B100AEA90B /* SandwichStore.swift in Sources */,
 				AF9B087625904BF600AEA90B /* ContentView.swift in Sources */,
 				AF9B087425904BF600AEA90B /* SandwichesApp.swift in Sources */,
 				AF9B088D2590546E00AEA90B /* Sandwich.swift in Sources */,
@@ -333,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9B08AE259104B100AEA90B /* SandwichStore.swift in Sources */,
 				AF9B087725904BF600AEA90B /* ContentView.swift in Sources */,
 				AF9B087525904BF600AEA90B /* SandwichesApp.swift in Sources */,
 				AF9B088E2590546E00AEA90B /* Sandwich.swift in Sources */,
