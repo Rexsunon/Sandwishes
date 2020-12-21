@@ -39,8 +39,9 @@ struct SandwichCell: View {
     var sandwich: Sandwich
     
     var body: some View {
-        NavigationLink(destination: Text(sandwich.name)) {
-            Image(systemName: "photo")
+        NavigationLink(destination: SandwichDetail(sandwich: sandwich)) {
+            Image(sandwich.thumbnailName)
+                .cornerRadius(8.0)
             
             VStack(alignment: .leading) {
                 Text(sandwich.name)

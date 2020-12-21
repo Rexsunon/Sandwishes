@@ -19,6 +19,8 @@
 		AF9B088E2590546E00AEA90B /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B088C2590546E00AEA90B /* Sandwich.swift */; };
 		AF9B08942590619100AEA90B /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B08932590619100AEA90B /* SandwichDetail.swift */; };
 		AF9B08952590619100AEA90B /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B08932590619100AEA90B /* SandwichDetail.swift */; };
+		AF9B08A6259067DC00AEA90B /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */; };
+		AF9B08A7259067DC00AEA90B /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		AF9B087325904BF600AEA90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF9B088C2590546E00AEA90B /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		AF9B08932590619100AEA90B /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				AF9B084C25904BF500AEA90B /* ContentView.swift */,
 				AF9B084D25904BF600AEA90B /* Assets.xcassets */,
 				AF9B088C2590546E00AEA90B /* Sandwich.swift */,
+				AF9B08A5259067DC00AEA90B /* Sandwiches.xcassets */,
 				AF9B08932590619100AEA90B /* SandwichDetail.swift */,
 			);
 			path = Shared;
@@ -283,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9B08A6259067DC00AEA90B /* Sandwiches.xcassets in Resources */,
 				AF9B087825904BF600AEA90B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9B08A7259067DC00AEA90B /* Sandwiches.xcassets in Resources */,
 				AF9B087925904BF600AEA90B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

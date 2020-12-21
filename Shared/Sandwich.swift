@@ -14,7 +14,7 @@ struct Sandwich: Identifiable {
     var isSpicy: Bool = false
     
     var imageName: String { return name }
-    var thumbnailName: String { return name + "Thumb" }
+    var thumbnailName: String { return name + "_tn" }
 }
 
 let testData = [
